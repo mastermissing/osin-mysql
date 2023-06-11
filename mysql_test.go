@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/RangelReale/osin"
+	"github.com/openshift/osin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/assert"

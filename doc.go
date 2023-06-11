@@ -1,4 +1,4 @@
-/*Package mysql is a storage backend for osin oauth2. Additional to implementing the osin.Storage interface, the github.com/felipeweb/osin-mysql/storage.Storage interface defines new methods:
+/*Package mysql is a storage backend for osin oauth2. Additional to implementing the osin.Storage interface, the github.com/mastermissing/osin-mysql/storage.Storage interface defines new methods:
 
 	// CreateClient stores the client in the database and returns an error, if something went wrong.
 	CreateClient(client osin.Client) error
@@ -17,14 +17,14 @@ Please be aware, that this library stores all data as-is and does not perform an
 
 Usage
 
-First, install this library with go get "github.com/felipeweb/osin-mysql".
+First, install this library with go get "github.com/mastermissing/osin-mysql".
 
 	import (
 	    "database/sql"
 	    _ "github.com/go-sql-driver/mysql"
 
-	    "github.com/felipeweb/osin-mysql"
-	    "github.com/RangelReale/osin"
+	    "github.com/mastermissing/osin-mysql"
+	    "github.com/openshift/osin"
 	)
 
 	func main() {

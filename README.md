@@ -2,8 +2,8 @@
 
 ![Travis](https://travis-ci.org/felipeweb/osin-mysql.svg?branch=master) [![GoDoc](https://godoc.org/github.com/felipeweb/osin-mysql?status.svg)](https://godoc.org/github.com/felipeweb/osin-mysql)
 
-A MySQL storage backend for [osin oauth2](https://github.com/RangelReale/osin).
-Additional to implementing the `osin.Storage` interface, the `github.com/felipeweb/osin-mysql/storage.Storage` interface defines new methods:
+A MySQL storage backend for [osin oauth2](https://github.com/openshift/osin).
+Additional to implementing the `osin.Storage` interface, the `github.com/mastermissing/osin-mysql/storage.Storage` interface defines new methods:
 
 ```
 // CreateClient stores the client in the database and returns an error, if something went wrong.
@@ -27,15 +27,15 @@ Please be aware, that this library stores all data as-is and does not perform an
 
 ## Usage
 
-First, install this library with `go get "github.com/felipeweb/osin-mysql"`.
+First, install this library with `go get "github.com/mastermissing/osin-mysql"`.
 
 ```go
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 
-	"github.com/felipeweb/osin-mysql"
-	"github.com/RangelReale/osin"
+	"github.com/mastermissing/osin-mysql"
+	"github.com/openshift/osin"
 )
 
 func main() {

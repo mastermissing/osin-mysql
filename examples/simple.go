@@ -6,9 +6,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"github.com/RangelReale/osin"
-	"github.com/RangelReale/osin/example"
-	"github.com/felipeweb/osin-mysql"
+	"github.com/openshift/osin"
+	"github.com/openshift/osin/example"
+	"github.com/mastermissing/osin-mysql"
 	_ "github.com/go-sql-driver/mysql"
 	"net/http"
 	"net/url"
