@@ -27,7 +27,7 @@ Please be aware, that this library stores all data as-is and does not perform an
 
 ## Usage
 
-First, install this library with `go get "github.com/mastermissing/osin-mysql"`.
+First, install this library with `go get "github.com/mastermissing/osin-mysql@master"`.
 
 ```go
 import (
